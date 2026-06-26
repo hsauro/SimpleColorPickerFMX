@@ -4,6 +4,9 @@
 <img width="350"  alt="image" src="https://github.com/user-attachments/assets/8aaa1c6c-091d-441d-a286-2b27696b8af9" />
 
 
+    // Declare variable
+    FColorPicker: TColorPickerPopup;
+    
     // Create once (e.g. FormCreate):
     FColorPicker := TColorPickerPopup.Create(Self);
     FColorPicker.OnColorChanged := HandleColorChanged;
