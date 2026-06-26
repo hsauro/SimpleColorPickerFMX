@@ -1,0 +1,27 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Simple Color Picker'
+  ClientHeight = 280
+  ClientWidth = 244
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object btnColor: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 0
+    Text = 'Pick Color'
+    OnClick = btnColorClick
+  end
+  object Rectangle1: TRectangle
+    Position.X = 143.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 113.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
