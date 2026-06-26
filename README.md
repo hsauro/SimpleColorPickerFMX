@@ -8,15 +8,12 @@
     FColorPicker := TColorPickerPopup.Create(Self);
     FColorPicker.OnColorChanged := HandleColorChanged;
 
-    // Open it anchored to any swatch control:
-    FColorPicker.Color := ASpecies.Style.FillColor;
-    FColorPicker.ShowAt(rectFillSwatch);
+    // Open it anchored to any control, for example a button
+    FColorPicker.Color := claRed;
+    FColorPicker.ShowAt(btnGetColor);
 
     // Read the result in the callback:
     procedure TfrmMain.HandleColorChanged(Sender: TObject);
     begin
-      rectFillSwatch.Fill.Color    := FColorPicker.Color;
-      ASpecies.Style.FillColor     := FColorPicker.Color;
-      ASpecies.Style.HasCustomStyle := True;
-      PaintBox.Redraw;
+      SelectedColor := FColorPicker.Color;
     end;
