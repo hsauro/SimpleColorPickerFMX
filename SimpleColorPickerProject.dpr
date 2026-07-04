@@ -4,7 +4,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   ufMain in 'ufMain.pas' {frmMain},
-  uColorPicker in 'uColorPicker.pas';
+  uRhoColorPicker in 'uRhoColorPicker.pas';
 
 {$R *.res}
 

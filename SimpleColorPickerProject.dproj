@@ -152,7 +152,7 @@
             <Form>frmMain</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="uColorPicker.pas"/>
+        <DCCReference Include="uRhoColorPicker.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

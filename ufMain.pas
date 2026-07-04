@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls, uColorPicker, FMX.Objects;
+  FMX.Controls.Presentation, FMX.StdCtrls, uRhoColorPicker, FMX.Objects;
 
 type
   TfrmMain = class(TForm)
@@ -15,7 +15,7 @@ type
     procedure btnColorClick(Sender: TObject);
   private
     { Private declarations }
-    FColorPicker : TColorPickerPopup;
+    FColorPicker : TRhoColorPickerPopup;
     procedure HandleColorChanged(Sender: TObject);
   public
     { Public declarations }
@@ -35,7 +35,7 @@ end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  FColorPicker := TColorPickerPopup.Create(Self);
+  FColorPicker := TRhoColorPickerPopup.Create(Self);
   FColorPicker.OnColorChanged := HandleColorChanged;
 end;
 
