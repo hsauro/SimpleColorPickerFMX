@@ -3,7 +3,7 @@ object frmMain: TfrmMain
   Top = 0
   Caption = 'Simple Color Picker'
   ClientHeight = 280
-  ClientWidth = 244
+  ClientWidth = 473
   Position = MainFormCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -18,7 +18,7 @@ object frmMain: TfrmMain
     OnClick = btnColorClick
   end
   object Rectangle1: TRectangle
-    Position.X = 143.000000000000000000
+    Position.X = 343.000000000000000000
     Position.Y = 32.000000000000000000
     Size.Width = 73.000000000000000000
     Size.Height = 113.000000000000000000
