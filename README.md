@@ -1,5 +1,6 @@
 ## Simple Color Picker for FMX ##
 
+MIT License.
 
 <img width="320"  alt="image" src="https://github.com/user-attachments/assets/8aaa1c6c-091d-441d-a286-2b27696b8af9" />
 
