@@ -1,5 +1,7 @@
 ## Simple Color Picker for FMX ##
 
+This code was developed using a combination of Human effort and AI assistance.
+
 MIT License.
 
 <img width="320"  alt="image" src="https://github.com/user-attachments/assets/8aaa1c6c-091d-441d-a286-2b27696b8af9" />
